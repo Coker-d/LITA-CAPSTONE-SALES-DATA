@@ -1,7 +1,7 @@
 # LITA-CAPSTONE-SALES-DATA
 
 
-## Project Title: Sales Data
+## Project Title: Sales Performance Analysis for a retail Store
 
 ### Project Overview
 
@@ -28,3 +28,22 @@ The primary source of Data used here is Sales Data xlsl and this is an open Data
   1.  Data Visualization
   2. Connect diparate Data Set
   3. find insight within given Data
+
+### Data cleaniing and preparations
+To start with the Data cleaning, the following were carried out
+  1.  Data importing and Inspection
+  2.  Data cleaning and formatting
+  3.  Data Validation
+  4.  Removal of duplicates
+
+### Explloratory Data Analysis
+this aspect involves digging deep into our data to answer questiions around our data such as
+  1.  Finding highest selling product
+  2. products with no sales in last quarter
+  3. Percentage toal sales in each region
+  4. Monthly Sales Totals per annum
+ 
+  
+  
+
+
