@@ -42,6 +42,13 @@ this aspect involves digging deep into our data to answer questiions around our 
   2. products with no sales in last quarter
   3. Percentage toal sales in each region
   4. Monthly Sales Totals per annum
+
+### Data Analysis
+The basic lines of codes, querries and DAX expression used during this analysis
+```SQL
+SsELECT * Fron  table SalesData
+GROUP By Region
+ORDER BY Sales DESC
  
   
   
