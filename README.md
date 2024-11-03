@@ -4,11 +4,18 @@
 ## Project Title: Sales Performance Analysis for a retail Store
 ---
 [Project Overview](#project-overview)
+
 [Data Source](#data-source)
+
 [Tools Used](#tools-used)
+
 [Data cleaniing and preparation](#data-cleaniing-and-preparation)
+
 [Exploratory Data Analysis](#exploratory-data-analysis)
+
  [Data Analysis](#data-analysis)
+
+ ---
 
 
 ### Project Overview
