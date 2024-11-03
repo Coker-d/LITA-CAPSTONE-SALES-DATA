@@ -3,12 +3,19 @@
 
 ## Project Title: Sales Performance Analysis for a retail Store
 ---
+[Project Overview](#project-overview)
+[Data Source](#data-source)
+[Tools Used](#tools-used)
+[Data cleaniing and preparation](#data-cleaniing-and-preparation)
+[Exploratory Data Analysis](#exploratory-data-analysis)
+ [Data Analysis](#data-analysis)
+
 
 ### Project Overview
 ---
 This Data aims at which enables me to tell a compelling story around this data from the iinsight gotten and to know best performance from the given Data as well as find insight within organizational Data
 
-### Data Source
+###Data Source
 ---
 The primary source of Data used here is Sales Data xlsl and this is an open Data Source available for all the ladies in tech Afica to carry out their Final Examination. This is my Final Examination with Ladies in Tech Africa (Question 1)
 
@@ -40,7 +47,7 @@ To start with the Data cleaning, the following were carried out
   3.  Data Validation
   4.  Removal of duplicates
 
-### Explloratory Data Analysis
+### Exploratory Data Analysis
 ---
 this aspect involves digging deep into our data to answer questiions around our data such as
   1.  Finding highest selling product
@@ -52,10 +59,12 @@ this aspect involves digging deep into our data to answer questiions around our 
 ---
 The basic lines of codes, querries and DAX expression used during this analysis
 ```SQL
-SELECT * Fron  table SalesData
+SELECT * From  table SalesData
 GROUP By Region
 ORDER BY Sales DESC
- 
-SELECT Top 5 Products * Fron  table SalesData   
 
+SELECT Top 5 Products * From  table SalesData   
+```
+
+|
 
