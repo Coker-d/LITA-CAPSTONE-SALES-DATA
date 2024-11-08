@@ -68,6 +68,8 @@ this aspect involves digging deep into our data to answer questiions around our 
       
 ### Data Analysis
 ---
+![Uploading image.png…]()
+
 The basic lines of codes, querries and DAX expression used during this analysis
 ```SQL
 SELECT * From  table SalesData
