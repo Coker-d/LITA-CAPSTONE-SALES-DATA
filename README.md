@@ -72,25 +72,27 @@ The basic lines of codes, querries and DAX expression used during this analysis
 ```SQL
 SELECT * From  table SalesData
 GROUP By Region
+```
 
-
-
-SQL Analysis
+## SQL Analysis
+####   Total sale for each product category
 ```SQL
 Select product,Sum (quantity* Unitprice) as TotalSales From [dbo].[Sales Capstone] Group by Product
 ```
+####  Number of sales transaction in each region
 ![Sales by product  SD](https://github.com/user-attachments/assets/8b9b3636-7e4c-4377-b333-5b9a984a7c5c)
 
 ```SQL
 Select Region, count(*) as Numberoftransactions From [dbo].[Sales Capstone] Group by Region
 ![SD By Region](https://github.com/user-attachments/assets/5388cef2-8fca-4b8c-b9de-3f63504ae8a7)
 
-
+#### Highest selling Product by sales value
+```SQL
 Select Top 1 Product as HighestSellingProduct, sum(quantity* Unitprice) as SalesValue From [dbo].[Sales Capstone] Group by Product order by SalesValue desc
 ```
 ![SD Top 1](https://github.com/user-attachments/assets/a130b00b-bdfc-445c-9aa3-1be1f048c541)
 
-
+####  Total revenue per Product
 ```SQL
 Select Product, Sum(quantity* Unitprice) as Total_Revenue From [dbo].[Sales Capstone] Group by Product```
 ```SQL
@@ -100,10 +102,11 @@ Select Month(OrderDate) as Month, Sum(quantity* Unitprice) as MonthlySales From 
 ![Sales by Month](https://github.com/user-attachments/assets/fdc3c627-da87-4640-a3a8-80267ba9b940)
 
 ```SQL
+#### Top5 Customers by total purchase amount
 Select Top 5 Customer_Id as Top5Customers, sum(quantity* Unitprice) as Sales From [dbo].[Sales Capstone] Group by Customer_Id order by Sales desc
 ```
 ![SD Top5 Customer](https://github.com/user-attachments/assets/430430eb-188d-46c6-ac5e-4f9c082eedf9)
-
+###  Products with no sales in the Last Quarter
 ```SQL
 Select Product, sum(quantity* Unitprice) as Nosales From [dbo].[Sales Capstone] Group by Product Having Sum(quantity* Unitprice) = 0
 ```
