@@ -82,10 +82,8 @@ The Schema of the ta ble below was npresente for all ladies in tech Afica
 |Order ID |CustomerID |Product| Region |Order Date | Quantity| Unit Price|
 |---------|-----------|-------|--------|-----------|---------|-----------|
 |1001     |Cus1278    | Shirt |North   |1/31/2023  | 5       |   20      |
-![image](https://github.com/user-attachments/assets/97aaee02-1d44-4ce1-85e2-aaf89266b70b)
 
-
-
+![SD Excel](https://github.com/user-attachments/assets/36b43f06-6a6d-4bb4-bbc7-2f3fb470a225)
 
 ## SQL Analysis
 ---
