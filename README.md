@@ -78,6 +78,7 @@ GROUP By Region
 ## Excel Analysis
 ---
 ![Uploading image.png…]()
+
 The Schema of the ta ble below was npresente for all ladies in tech Afica
 |Order ID |CustomerID |Product| Region |Order Date | Quantity| Unit Price|
 |---------|-----------|-------|--------|-----------|---------|-----------|
@@ -89,12 +90,13 @@ The Schema of the ta ble below was npresente for all ladies in tech Afica
 ```SQL
 Select product,Sum (quantity* Unitprice) as TotalSales From [dbo].[Sales Capstone] Group by Product
 ```
-####  Number of sales transaction in each region
 ![Sales by product  SD](https://github.com/user-attachments/assets/8b9b3636-7e4c-4377-b333-5b9a984a7c5c)
 
+
+####  Number of sales transaction in each region
 ```SQL
 Select Region, count(*) as Numberoftransactions From [dbo].[Sales Capstone] Group by Region
-![SD By Region](https://github.com/user-attachments/assets/5388cef2-8fca-4b8c-b9de-3f63504ae8a7)
+![SD By Region](https://github.com/user-attachments/assets/d2f30690-d8f8-4060-b5f4-7c6cf408381a)
 
 #### Highest selling Product by sales value
 ```SQL
@@ -107,6 +109,7 @@ Select Top 1 Product as HighestSellingProduct, sum(quantity* Unitprice) as Sales
 Select Product, Sum(quantity* Unitprice) as Total_Revenue From [dbo].[Sales Capstone] Group by Product```
 ```SQL
 ![SD By Region](https://github.com/user-attachments/assets/163e6c1b-58a2-4b27-9d20-04e955401692)
+
 Select Month(OrderDate) as Month, Sum(quantity* Unitprice) as MonthlySales From [dbo].[Sales Capstone]where Year(OrderDate) = Year(GETDATE())Group by Month(OrderDate) Order by Month;
 ```
 ![Sales by Month](https://github.com/user-attachments/assets/fdc3c627-da87-4640-a3a8-80267ba9b940)
