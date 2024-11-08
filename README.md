@@ -97,7 +97,7 @@ Select product,Sum (quantity* Unitprice) as TotalSales From [dbo].[Sales Capston
 Select Region, count(*) as Numberoftransactions From [dbo].[Sales Capstone] Group by Region
 ![SD By Region](https://github.com/user-attachments/assets/d2f30690-d8f8-4060-b5f4-7c6cf408381a)
 ```
-![Uploading SD By Region.JPG…]()
+![SD By Region](https://github.com/user-attachments/assets/63b5e686-3d29-4872-bc28-0b5ddb10c067)
 
 #### Highest selling Product by sales value
 ```SQL
