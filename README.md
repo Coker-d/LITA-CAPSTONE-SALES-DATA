@@ -120,8 +120,8 @@ Select Month(OrderDate) as Month, Sum(quantity* Unitprice) as MonthlySales From 
 ```
 ![Sales by Month](https://github.com/user-attachments/assets/fdc3c627-da87-4640-a3a8-80267ba9b940)
 
-```SQL
 #### Top5 Customers by total purchase amount
+```SQL
 Select Top 5 Customer_Id as Top5Customers, sum(quantity* Unitprice) as Sales From [dbo].[Sales Capstone] Group by Customer_Id order by Sales desc
 ```
 ![SD Top5 Customer](https://github.com/user-attachments/assets/430430eb-188d-46c6-ac5e-4f9c082eedf9)
