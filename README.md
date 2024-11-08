@@ -57,11 +57,15 @@ To start with the Data cleaning, the following were carried out
 ### Exploratory Data Analysis
 ---
 this aspect involves digging deep into our data to answer questiions around our data such as
-  1.  Finding highest selling product
-  2. products with no sales in last quarter
-  3. Percentage total sales in each region
-  4. Monthly Sales Totals per annum
-
+  1.  Total sale for each product category
+  2.  Number of sales transaction in each region
+  3.  Highest selling Product by sales value
+  4.  Total revenue per Product
+  5.  Moonthly Sales total for the current year
+  6.  Top5 Customers by total purchase amount
+  7.  %total sales Contributed by each region
+  8.  Products with no sales in the Last Quarter
+  9.  
 ### Data Analysis
 ---
 The basic lines of codes, querries and DAX expression used during this analysis
