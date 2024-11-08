@@ -85,6 +85,8 @@ The Schema of the ta ble below was npresente for all ladies in tech Afica
 
 ![SD Excel](https://github.com/user-attachments/assets/36b43f06-6a6d-4bb4-bbc7-2f3fb470a225)
 ![Excel Pivot](https://github.com/user-attachments/assets/74b06581-7ed5-4043-ba34-3715c351bd57)
+![image](https://github.com/user-attachments/assets/92b68852-2fb6-4cb1-bd0b-5a3d9f6e141b)
+
 
 ---
 ####   Total sale for each product category
