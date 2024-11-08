@@ -68,15 +68,16 @@ this aspect involves digging deep into our data to answer questiions around our 
       
 ### Data Analysis
 ---
-![Uploading image.png…]()
-
 The basic lines of codes, querries and DAX expression used during this analysis
 ```SQL
 SELECT * From  table SalesData
 GROUP By Region
 ```
+
+
 ## Excel Analysis
 ---
+![Uploading image.png…]()
 The Schema of the ta ble below was npresente for all ladies in tech Afica
 |Order ID |CustomerID |Product| Region |Order Date | Quantity| Unit Price|
 |---------|-----------|-------|--------|-----------|---------|-----------|
