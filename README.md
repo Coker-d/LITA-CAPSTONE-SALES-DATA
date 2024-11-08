@@ -84,11 +84,8 @@ The Schema of the ta ble below was npresente for all ladies in tech Afica
 |1001     |Cus1278    | Shirt |North   |1/31/2023  | 5       |   20      |
 
 ![SD Excel](https://github.com/user-attachments/assets/36b43f06-6a6d-4bb4-bbc7-2f3fb470a225)
-![SD Excel](https://github.com/user-attachments/assets/20ca7555-a51d-4600-a0d1-65799fa1f85a)
+![Excel Pivot](https://github.com/user-attachments/assets/74b06581-7ed5-4043-ba34-3715c351bd57)
 
-
-
-## SQL Analysis
 ---
 ####   Total sale for each product category
 ```SQL
