@@ -138,6 +138,8 @@ Select Product, sum(quantity* Unitprice) as Nosales From [dbo].[Sales Capstone] 
 
 
 ## Power B I Analysis
+The total sales I N2,101,090 
+Sales Per Order
 
 |![Sales Data Pivot](https://github.com/user-attachments/assets/c360cf2e-dd1e-4086-bdc9-33c4944288ea)
 
