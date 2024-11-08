@@ -84,7 +84,6 @@ The Schema of the ta ble below was npresente for all ladies in tech Afica
 |1001     |Cus1278    | Shirt |North   |1/31/2023  | 5       |   20      |
 
 ![Chart Customer Data](https://github.com/user-attachments/assets/f63e39fa-c94e-4b3c-b949-fc3fba55ac9a)
-![Sales Data Pivot](https://github.com/user-attachments/assets/af3b35b6-d891-47a8-a46e-b0ff3d6a6035)
 
 
 
@@ -138,7 +137,8 @@ Select Product, sum(quantity* Unitprice) as Nosales From [dbo].[Sales Capstone] 
 
 
 
-Visuals
+## Power B I Analysis
 
-|
+|![Sales Data Pivot](https://github.com/user-attachments/assets/c360cf2e-dd1e-4086-bdc9-33c4944288ea)
+
 
