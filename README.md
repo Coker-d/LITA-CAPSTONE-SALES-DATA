@@ -82,6 +82,8 @@ The Schema of the ta ble below was npresente for all ladies in tech Afica
 |Order ID |CustomerID |Product| Region |Order Date | Quantity| Unit Price|
 |---------|-----------|-------|--------|-----------|---------|-----------|
 |1001     |Cus1278    | Shirt |North   |1/31/2023  | 5       |   20      |
+![image](https://github.com/user-attachments/assets/128a9ada-6efe-4b65-8732-41aa6e695a19)
+
 
 ![Chart Customer Data](https://github.com/user-attachments/assets/f63e39fa-c94e-4b3c-b949-fc3fba55ac9a)
 
