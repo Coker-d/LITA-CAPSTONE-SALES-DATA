@@ -83,6 +83,10 @@ The Schema of the ta ble below was npresente for all ladies in tech Afica
 |---------|-----------|-------|--------|-----------|---------|-----------|
 |1001     |Cus1278    | Shirt |North   |1/31/2023  | 5       |   20      |
 
+![Chart Customer Data](https://github.com/user-attachments/assets/f63e39fa-c94e-4b3c-b949-fc3fba55ac9a)
+
+
+
 ## SQL Analysis
 ---
 ####   Total sale for each product category
