@@ -61,7 +61,7 @@ this aspect involves digging deep into our data to answer questiions around our 
   2.  Number of sales transaction in each region
   3.  Highest selling Product by sales value
   4.  Total revenue per Product
-  5.  Moonthly Sales total for the current year
+  5.  Monthly Sales total for the current year
   6.  Top5 Customers by total purchase amount
   7.  %total sales Contributed by each region
   8.  Products with no sales in the Last Quarter
@@ -97,6 +97,7 @@ Select product,Sum (quantity* Unitprice) as TotalSales From [dbo].[Sales Capston
 ```SQL
 Select Region, count(*) as Numberoftransactions From [dbo].[Sales Capstone] Group by Region
 ![SD By Region](https://github.com/user-attachments/assets/d2f30690-d8f8-4060-b5f4-7c6cf408381a)
+```
 
 #### Highest selling Product by sales value
 ```SQL
