@@ -18,7 +18,7 @@
  ---
 
 
-### Project Overview
+## Project Overview
 ---
 This Data aims at which enables me to tell a compelling story around this data from the iinsight gotten and to know best performance from the given Data as well as find insight within organizational Data
 
@@ -26,7 +26,7 @@ This Data aims at which enables me to tell a compelling story around this data f
 ---
 The primary source of Data used here is Sales Data xlsl and this is an open Data Source available for all the ladies in tech Afica to carry out their Final Examination. This is my Final Examination with Ladies in Tech Africa (Question 1)
 
-### Tools Used
+## Tools Used
 ---
 - Microsoft Excel [Download Here](https://www.microsoft.com)
   1. for Data Cleaning,
@@ -46,7 +46,7 @@ The primary source of Data used here is Sales Data xlsl and this is an open Data
   2. Connect diparate Data Set
   3. find insight within given Data
 
-### Data cleaning and preparations
+## Data cleaning and preparations
 ---
 To start with the Data cleaning, the following were carried out
   1.  Data importing and Inspection
@@ -54,7 +54,7 @@ To start with the Data cleaning, the following were carried out
   3.  Data Validation
   4.  Removal of duplicates
 
-### Exploratory Data Analysis
+## Exploratory Data Analysis
 ---
 this aspect involves digging deep into our data to answer questiions around our data such as
   1.  Total sale for each product category
@@ -73,8 +73,15 @@ The basic lines of codes, querries and DAX expression used during this analysis
 SELECT * From  table SalesData
 GROUP By Region
 ```
+## Excel Analysis
+---
+The Schema of the ta ble below was npresente for all ladies in tech Afica
+|Order ID |CustomerID |Product| Region |Order Date | Quantity| Unit Price|
+|---------|-----------|-------|--------|-----------|---------|-----------|
+|1001     |Cus1278    | Shirt |North   |1/31/2023  | 5       |   20      |
 
 ## SQL Analysis
+---
 ####   Total sale for each product category
 ```SQL
 Select product,Sum (quantity* Unitprice) as TotalSales From [dbo].[Sales Capstone] Group by Product
