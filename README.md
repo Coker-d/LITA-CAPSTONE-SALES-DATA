@@ -77,7 +77,6 @@ GROUP By Region
 
 ## Excel Analysis
 ---
-![image](https://github.com/user-attachments/assets/b07a2758-99d4-416e-94d7-f80444f739cf)
 
 The Schema of the ta ble below was npresente for all ladies in tech Afica
 |Order ID |CustomerID |Product| Region |Order Date | Quantity| Unit Price|
@@ -115,6 +114,7 @@ Select Product, Sum(quantity* Unitprice) as Total_Revenue From [dbo].[Sales Caps
 ####  Total revenue per Region
 ![SD By Region](https://github.com/user-attachments/assets/163e6c1b-58a2-4b27-9d20-04e955401692)
 
+####   Monthly Sales total for the current year
 ```SQL
 Select Month(OrderDate) as Month, Sum(quantity* Unitprice) as MonthlySales From [dbo].[Sales Capstone]where Year(OrderDate) = Year(GETDATE())Group by Month(OrderDate) Order by Month;
 ```
